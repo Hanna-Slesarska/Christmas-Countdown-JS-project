@@ -1,0 +1,150 @@
+* {font-family: 'Lobster', cursive;
+margin: 0;
+padding: 0;
+
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+
+body {
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #251462;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+h1 {
+    font-size: 70px;
+    padding: 20px;
+    color: #fff;
+    text-shadow: -1px 0 1px #505050, 0 1px 1px #505050, 5px 5px 20px rgba(255, 255, 255, 0.4), -5px -5px 20px rgba(255, 255, 255, 0.4);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.christmas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+    justify-content: flex-end;
+}
+
+h3 {
+    font-size: 30px;
+    color: #fff; 
+    font-weight: 100;
+    text-shadow: -1px 0 1px #505050, 0 1px 1px #505050, 5px 5px 20px rgba(255, 255, 255, 0.4), -5px -5px 20px rgba(255, 255, 255, 0.4);
+
+}
+
+.days, .hours, .minutes, .seconds {
+    padding:10px;
+    font-size: 70px;
+    color: #fff; 
+    font-weight: 200;
+    text-shadow: -1px 0 1px #505050, 0 1px 1px #505050, 5px 5px 20px rgba(255, 255, 255, 0.4), -5px -5px 20px rgba(255, 255, 255, 0.4);
+}
+.red {
+    font-size: 80px;
+    color: #cfc09f;
+    text-shadow: -1px 0 1px #505050, 0 1px 1px #505050, 5px 5px 20px rgba(255, 255, 255, 0.4), -5px -5px 20px rgba(255, 255, 255, 0.4);
+}
+.playerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.playBtn {
+    cursor: pointer;
+    background-color: #50505000;
+    border: none;
+    font-size: 40px;
+    margin: 10px;
+    color: #fff;
+    text-shadow: -1px 0 1px #505050, 0 1px 1px #505050;
+}
+.playBtn:hover {
+    text-shadow: -2px 0 1px #cdc9c9, 0 5px 5px #cdc9c9;
+}
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+    }
+   
+
+    h4 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .block {
+        margin: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+  .container {
+      padding:10px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 50px;
+    }
+    h1 {
+        font-size: 47px;
+      text-align: center;
+    }
+
+    h4 {
+        font-size:30px;
+
+    }
+
+    h3 {
+        
+        font-size: 15px;
+    }
+
+    .block {
+        margin: 10px;
+    }
+
+    .playBtn  {
+        font-size: 25px;
+    }
+}
